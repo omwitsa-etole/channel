@@ -28,7 +28,7 @@ SECRET_KEY =  os.environ.get('DJANGO_SECRET_KEY', 'cg#p$g+j9tax!#a3cup@1$8obt2_+
 #DEBUG = True
 DEBUG = os.environ.get('DJANGO_DEBUG', '') != 'False'
 
-ALLOWED_HOSTS = ['192.168.43.56', '192.168.43.88']
+ALLOWED_HOSTS = ['group-channel.herokuapp.com', 'online-channel.herokuapp.com']
 
 # Application definition
 
